@@ -1,43 +1,34 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>계산기</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="calculator">
-		<div class="display">
-			<input type="text" class="display-screen" disabled>
-		</div>
-		<div class="button-row">
-			<button class="button" value="7">7</button>
-			<button class="button" value="8">8</button>
-			<button class="button" value="9">9</button>
-			<button class="button operator" value="+">+</button>
-		</div>
-		<div class="button-row">
-			<button class="button" value="4">4</button>
-			<button class="button" value="5">5</button>
-			<button class="button" value="6">6</button>
-			<button class="button operator" value="-">-</button>
-		</div>
-		<div class="button-row">
-			<button class="button" value="1">1</button>
-			<button class="button" value="2">2</button>
-			<button class="button" value="3">3</button>
-			<button class="button operator" value="*">*</button>
-		</div>
-		<div class="button-row">
-			<button class="button" value="0">0</button>
-			<button class="button" value=".">.</button>
-			<button class="button equal" value="=">=</button>
-			<button class="button operator" value="/">/</button>
-		</div>
-		<div class="button-row">
-			<button class="button clear" value="c">C</button>
-		</div>
-	</div>
-	<script type="text/javascript" src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>예쁜 계산기</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" class="display-screen" disabled>
+      <div class="button-row">
+        <button class="button clear" value="c">C</button>
+        <button class="button operator" value="/">/</button>
+        <button class="button operator" value="*">x</button>
+        <button class="button" value="7">7</button>
+        <button class="button" value="8">8</button>
+        <button class="button" value="9">9</button>
+        <button class="button operator" value="-">-</button>
+        <button class="button" value="4">4</button>
+        <button class="button" value="5">5</button>
+        <button class="button" value="6">6</button>
+        <button class="button operator" value="+">+</button>
+        <button class="button" value="1">1</button>
+        <button class="button" value="2">2</button>
+        <button class="button" value="3">3</button>
+        <button class="button equal" value="=">=</button>
+        <button class="button" value="0">0</button>
+        <button class="button" value=".">.</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
